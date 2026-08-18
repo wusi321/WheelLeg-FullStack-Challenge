@@ -2,7 +2,7 @@
 
 ## 题目说明
 
-使用 Ubuntu 22.04 + ROS 2 Humble + Gazebo（或兼容平台）加载提交的 URDF/Xacro，建立可复现的 ROS 2 工程。必须实现前进、后退、左转、右转和跳跃：跳跃应包含压缩、蓄力、伸展、离地、空中、落地阶段。
+使用 Ubuntu 22.04 + ROS 2 Humble + Gazebo（或兼容平台）加载提交的 URDF/Xacro，建立可复现的 ROS 2 工程。必须实现前进、后退、左转、右转和跳跃：跳跃应包含压缩、蓄力、伸展、离地、空中、落地阶段。仿真可由键盘或模拟 Web 页面发布 [`docs/remote_control.md`](../docs/remote_control.md) 定义的遥控命令。
 
 ## 交付物
 
@@ -23,4 +23,4 @@
 
 ## 验收
 
-从 `/cmd_vel` 或等价 Topic 进入，经过 C++ 控制器和关节目标后产生运动；提供每种动作的启动命令、参数和结果记录。
+从 `/wheelleg/remote_cmd`、`/cmd_vel` 或等价 Topic 进入，经过 C++ 控制器和关节目标后产生运动；提供键盘/Web 操作、每种动作的启动命令、参数和结果记录。

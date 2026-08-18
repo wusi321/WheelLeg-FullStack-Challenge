@@ -2,11 +2,11 @@
 
 ## 题目说明
 
-实现上位机→CAN→MCU 的控制帧接收，以及 MCU→CAN→上位机的 IMU、关节、电机和故障状态发送。至少覆盖 `0x101` Control、`0x201` IMU、`0x301` Status，并在协议文档中写清 DLC、Byte 定义、类型、端序、缩放系数、单位和周期。
+实现上位机→CAN→MCU 的控制帧接收，以及 MCU→CAN→上位机的 IMU、关节、电机和故障状态发送。至少覆盖 `0x101` Control、`0x110` RemoteCommand、`0x201` IMU、`0x301` Status，并在协议文档中写清 DLC、Byte 定义、类型、端序、缩放系数、单位和周期。控制帧必须能表达 6 个电机的目标或经过下位机运动学展开为 6 路目标。
 
 ## 交付物
 
-`can/` 驱动或协议代码、[`docs/can_protocol.md`](../../docs/can_protocol.md)、Linux SocketCAN/vcan 测试工具、收发抓包和边界/超时/故障测试记录。
+`can/` 驱动或协议代码、[`docs/can_protocol.md`](../../docs/can_protocol.md)、[`docs/remote_control.md`](../../docs/remote_control.md)、Linux SocketCAN/vcan 测试工具、收发抓包和边界/超时/故障测试记录。
 
 ## 评分
 

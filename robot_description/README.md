@@ -2,7 +2,7 @@
 
 ## 题目说明
 
-将机械模型转换为 URDF，推荐使用 Xacro。至少包含 `link`、`joint`、`visual`、`collision`、`inertial`、joint axis、joint limit、material，必要时提供 transmission。网格、RViz 配置和 launch 文件应能被 ROS 2 工具直接加载。
+将机械模型转换为 URDF，推荐使用 Xacro。至少包含 `link`、`joint`、`visual`、`collision`、`inertial`、joint axis、joint limit、material，必要时提供 transmission。网格、RViz 配置和 launch 文件应能被 ROS 2 工具直接加载。URDF 必须体现 6 个电机驱动的主动关节/轮足接口，以及机身、上杆、下杆、销钉/环状轴承和轮足之间的连接关系。
 
 ## 交付物
 
@@ -20,4 +20,4 @@
 
 ## 验收
 
-对比 CAD、URDF 和 RViz 的轮径、关节位置、质量、惯量和运动范围；任何明显不一致按实际误差扣分。
+对比 CAD、URDF 和 RViz 的轮径、关节位置、质量、惯量、电机数量、轮足连接和运动范围；任何明显不一致按实际误差扣分。
