@@ -1,0 +1,24 @@
+name: validation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  repository-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required documents
+        shell: bash
+        run: |
+          test -s README.md
+          test -s docs/requirements.md
+          test -s docs/can_protocol.md
+          test -s mechanical/README.md
+          test -s robot_description/README.md
+          test -s simulation/README.md
+          test -s controller/README.md
+          test -s linux/README.md
+          test -s embedded/README.md
+          test -s embedded/can/README.md

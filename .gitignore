@@ -1,0 +1,25 @@
+# ROS 2 / colcon
+build/
+install/
+log/
+.ros/
+
+# 编译与 IDE
+*.o
+*.a
+*.so
+compile_commands.json
+.vscode/
+.idea/
+
+# CAD 临时文件和系统文件
+~$*
+*.bak
+.DS_Store
+Thumbs.db
+
+# 数据与本地配置
+*.bag
+*.db3
+*.log
+env.local
