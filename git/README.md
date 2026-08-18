@@ -10,6 +10,10 @@ Commit 必须描述实际工作，例如 `feat: add wheelleg urdf`、`fix: corre
 
 GitHub 仓库、可追溯的 Commit 历史、分支、Tag、Pull Request、Release，以及能证明每位成员贡献范围的记录。
 
+## 成品回传建议
+
+测试者和开发者建议基于本仓库架构完成自己的仿真或实体成品，并将成果回传到本仓库的其他分支。推荐使用 `submission/<姓名>/<版本>` 或 `submission/<团队>/<版本>` 分支，保留完整 Commit 历史后创建指向 `develop` 的 Pull Request。提交内容应包括构建/烧录步骤、硬件版本、测试日志、演示视频、CAD 与 URDF 一致性说明、CNC/铨州预览截图和已知问题；禁止直接覆盖 `main`/`develop` 或使用一次性的 `final` 提交。没有写权限时可先 Fork，再通过 Pull Request 回传。
+
 ## 评分
 
 | 项目 | 分值 |
