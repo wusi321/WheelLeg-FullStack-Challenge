@@ -17,7 +17,7 @@
 | Ubuntu/Linux 开发环境 | [`linux/`](linux/) | 10 |
 | MCU 与 IMU | [`embedded/`](embedded/) | 10 |
 | CAN 通信 | [`embedded/can/`](embedded/can/) | 10 |
-| Git/GitHub 协作 | [`docs/development_log.md`](docs/development_log.md) | 10 |
+| Git/GitHub 协作 | [`git/`](git/) | 10 |
 | 工程文档 | [`docs/`](docs/) | 5 |
 | **合计** |  | **100** |
 
