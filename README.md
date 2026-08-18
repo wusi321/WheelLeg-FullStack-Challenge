@@ -21,7 +21,7 @@
 | 工程文档 | [`docs/`](docs/) | 5 |
 | **合计** |  | **100** |
 
-每个模块的题目、交付物和评分细则写在对应目录的 `README.md` 中。轮足外形和六电机约束见 [`docs/wheelleg_geometry.md`](docs/wheelleg_geometry.md)，遥控器、订阅 Topic 和演示输入见 [`docs/remote_control.md`](docs/remote_control.md)。模块之间必须使用同一套尺寸、质量、坐标系和接口，不能提交互相独立的小实验。
+每个模块的题目、交付物和评分细则写在对应目录的 `README.md` 中。轮足外形和六电机约束见 [`docs/wheelleg_geometry.md`](docs/wheelleg_geometry.md)，机械 CNC/铨洲平台验收见 [`mechanical/CNC/README.md`](mechanical/CNC/README.md)，遥控器、订阅 Topic 和演示输入见 [`docs/remote_control.md`](docs/remote_control.md)。模块之间必须使用同一套尺寸、质量、坐标系和接口，不能提交互相独立的小实验。
 
 ## 推荐环境
 
@@ -41,7 +41,7 @@
 
 ## 最终交付
 
-CAD/STEP、URDF/Xacro、ROS 2/Gazebo 工程、C++ 控制器、Linux 配置脚本、MCU 固件、[`docs/can_protocol.md`](docs/can_protocol.md)、[`docs/remote_control.md`](docs/remote_control.md)、测试脚本、演示视频和完整 Git 历史均为验收材料。
+CAD/STEP、逐零件 CNC 上传清单与铨洲预览截图、URDF/Xacro、ROS 2/Gazebo 工程、C++ 控制器、Linux 配置脚本、MCU 固件、[`docs/can_protocol.md`](docs/can_protocol.md)、[`docs/remote_control.md`](docs/remote_control.md)、测试脚本、演示视频和完整 Git 历史均为验收材料。
 
 ## 严重扣分与加分
 
