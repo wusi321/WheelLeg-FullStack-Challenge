@@ -1,4 +1,4 @@
-# MCU 与 IMU 嵌入式题目（10 分）
+# MCU 与 IMU 嵌入式题目（15 分）
 
 ## 题目说明
 
@@ -17,5 +17,6 @@
 | MCU 工程、启动和构建 | 3 |
 | IMU 读取、标定和数据输出 | 4 |
 | Linux-MCU 联调闭环 | 3 |
+| 六执行器实时性、故障保护和可复现烧录 | 5 |
 
-CAN 收发另按 [`can/README.md`](can/README.md) 的 10 分评分，嵌入式与 CAN 合计 20 分。
+CAN 收发另按 [`can/README.md`](can/README.md) 的 15 分评分，嵌入式与 CAN 合计 30 分。

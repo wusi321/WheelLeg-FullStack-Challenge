@@ -22,3 +22,6 @@ jobs:
           test -s linux/README.md
           test -s embedded/README.md
           test -s embedded/can/README.md
+          test -s vision/README.md
+          test -s ai_tools/README.md
+          test -s docs/ai_usage.md

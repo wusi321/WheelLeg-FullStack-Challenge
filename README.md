@@ -1,6 +1,6 @@
 # WheelLeg-FullStack-Challenge
 
-四连杆双轮腿小型机器人的全栈开发综合考核。项目覆盖机械设计、机器人描述、ROS 2 仿真、C++ 控制、Linux 开发环境、MCU/CAN 通信以及 GitHub 协作。
+四连杆双轮腿小型机器人的全栈开发综合考核。项目覆盖机械设计、机器人描述、ROS 2 仿真、C++ 控制、Linux 开发环境、MCU/CAN 通信、视觉感知、AI 辅助工程以及 GitHub 协作。
 
 ## 考核目标
 
@@ -10,18 +10,20 @@
 
 | 模块 | 目录 | 满分 |
 | --- | --- | ---: |
-| 机械结构与 CAD | [`mechanical/`](mechanical/) | 15 |
-| URDF/Xacro 机器人描述 | [`robot_description/`](robot_description/) | 10 |
-| ROS 2 与 Gazebo 仿真 | [`simulation/`](simulation/) | 20 |
-| C++ 控制器 | [`controller/`](controller/) | 10 |
+| 机械结构与 CAD | [`mechanical/`](mechanical/) | 18 |
+| URDF/Xacro 机器人描述 | [`robot_description/`](robot_description/) | 12 |
+| ROS 2 与 Gazebo 仿真 | [`simulation/`](simulation/) | 25 |
+| C++ 控制器 | [`controller/`](controller/) | 15 |
 | Ubuntu/Linux 开发环境 | [`linux/`](linux/) | 10 |
-| MCU 与 IMU | [`embedded/`](embedded/) | 10 |
-| CAN 通信 | [`embedded/can/`](embedded/can/) | 10 |
+| MCU 与 IMU | [`embedded/`](embedded/) | 15 |
+| CAN 通信 | [`embedded/can/`](embedded/can/) | 15 |
+| 视觉感知与视觉闭环 | [`vision/`](vision/) | 20 |
 | Git/GitHub 协作 | [`git/`](git/) | 10 |
 | 工程文档 | [`docs/`](docs/) | 5 |
-| **合计** |  | **100** |
+| AI 工具与模型使用 | [`ai_tools/`](ai_tools/) | 5 |
+| **合计** |  | **150** |
 
-每个模块的题目、交付物和评分细则写在对应目录的 `README.md` 中。轮足外形和六电机约束见 [`docs/wheelleg_geometry.md`](docs/wheelleg_geometry.md)，机械 CNC/铨洲平台验收见 [`mechanical/CNC/README.md`](mechanical/CNC/README.md)，遥控器、订阅 Topic 和演示输入见 [`docs/remote_control.md`](docs/remote_control.md)。模块之间必须使用同一套尺寸、质量、坐标系和接口，不能提交互相独立的小实验。
+每个模块的题目、交付物和评分细则写在对应目录的 `README.md` 中。轮足外形和六电机约束见 [`docs/wheelleg_geometry.md`](docs/wheelleg_geometry.md)，机械 CNC/铨洲平台验收见 [`mechanical/CNC/README.md`](mechanical/CNC/README.md)，视觉题目见 [`vision/`](vision/)，AI 使用记录见 [`ai_tools/`](ai_tools/) 和 [`docs/ai_usage.md`](docs/ai_usage.md)，遥控器、订阅 Topic 和演示输入见 [`docs/remote_control.md`](docs/remote_control.md)。模块之间必须使用同一套尺寸、质量、坐标系和接口，不能提交互相独立的小实验。
 
 ## 推荐环境
 
@@ -41,7 +43,7 @@
 
 ## 最终交付
 
-CAD/STEP、逐零件 CNC 上传清单与铨洲预览截图、URDF/Xacro、ROS 2/Gazebo 工程、C++ 控制器、Linux 配置脚本、MCU 固件、[`docs/can_protocol.md`](docs/can_protocol.md)、[`docs/remote_control.md`](docs/remote_control.md)、测试脚本、演示视频和完整 Git 历史均为验收材料。
+CAD/STEP、逐零件 CNC 上传清单与铨洲预览截图、URDF/Xacro、ROS 2/Gazebo 工程、C++ 控制器、Linux 配置脚本、MCU 固件、视觉节点与数据、[`docs/can_protocol.md`](docs/can_protocol.md)、[`docs/remote_control.md`](docs/remote_control.md)、AI 使用记录、测试脚本、演示视频和完整 Git 历史均为验收材料。
 
 ## 开源协议
 
