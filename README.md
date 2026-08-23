@@ -2,6 +2,10 @@
 
 四连杆双轮腿小型机器人的全栈开发综合考核。项目覆盖机械设计、机器人描述、ROS 2 仿真、C++ 控制、Linux 开发环境、MCU/CAN 通信、视觉感知、AI 辅助工程以及 GitHub 协作。
 
+## 前言
+
+本项目为作者为考察锻炼后继者的综合素质开发能力所创建，考核范围涵盖多技术方向与团队协作，版本管理与ai工具使用等。后续会继续深入题目的技术方向与深度，偏向运控与具身智能
+
 ## 考核目标
 
 参赛者需要建立从 CAD 到 URDF/Xacro、Gazebo/ROS 2、C++ 控制器、Sim2Sim、MCU、CAN，再到 Git 版本管理的可复现工程闭环。不要求制造实体机器人，但必须提供可验证的仿真和通信演示。
@@ -44,6 +48,7 @@
 ## 最终交付
 
 CAD/STEP、逐零件 CNC 上传清单与铨洲预览截图、URDF/Xacro、ROS 2/Gazebo 工程、C++ 控制器、Linux 配置脚本、MCU 固件、视觉节点与数据、[`docs/can_protocol.md`](docs/can_protocol.md)、[`docs/remote_control.md`](docs/remote_control.md)、AI 使用记录、测试脚本、演示视频和完整 Git 历史均为验收材料。
+技术实现和环境等以图像形式保留提交
 
 ## 开源协议
 
